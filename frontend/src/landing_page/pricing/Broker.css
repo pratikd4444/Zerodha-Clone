@@ -1,0 +1,23 @@
+/* Custom styling for the navigation tabs line indicators */
+.nav-tabs .nav-link {
+  border: none !important;
+  background: transparent !important;
+  position: relative;
+}
+
+.nav-tabs .nav-link.active {
+  color: #387ed1 !important; /* Brand Blue */
+  font-weight: 500 !important;
+  border-bottom: 3px solid #387ed1 !important;
+}
+
+/* Subtle background coloring for alternate table rows */
+.bg-light-row {
+  background-color: #fafafa !important;
+}
+
+/* Typography polish for clean table read */
+.custom-pricing-table td {
+  font-size: 14.5px;
+  line-height: 1.6;
+}

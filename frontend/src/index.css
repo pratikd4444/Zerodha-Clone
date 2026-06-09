@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+
+.col a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.65;
+  
+}
+.link-column {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    gap: 3px;           /* Adjust this value to increase/decrease the gap */
+}
+.fa-brands {
+  margin-bottom: 15px;
+  margin-top: 8px;
+  margin-right: 25px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+/* Custom styling for the navigation tabs line indicators */
+.nav-tabs .nav-link {
+  border: none !important;
+  background: transparent !important;
+  position: relative;
+}
+
+.nav-tabs .nav-link.active {
+  color: #387ed1 !important; /* Brand Blue */
+  font-weight: 500 !important;
+  border-bottom: 5px solid #387ed1 !important;
+}
+
+/* Subtle background coloring for alternate table rows */
+.bg-light-row {
+  background-color: #fafafa !important;
+}
+
+/* Typography polish for clean table read */
+.custom-pricing-table td {
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+/* Custom Hover Effect for Accordion Items */
+.accordion-item .accordion-button:hover {
+  background-color: #f8fafc ;
+  transition: all 0.2s ease-in-out; 
+}
+
+.accordion-item .accordion-button:hover i {
+  transform: scale(1.1); 
+  transition: transform 0.2s ease;
+}
+
+.ticket {
+  background-color: #FAF0CA;
+  border: 2px solid #FAF0CA;
+  border-radius: 1rem;
+  margin-left: 15px;
+}
+
+.table-responsive {
+  margin-left: 10px;
+  border: 2px solid lightgrey;
+  border-radius: 1rem;
+}
+
+/* SignUp and Login Page */
+
+/* --- Global Resets & Typography --- */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh; /* Allows the page to stretch naturally if content is long */
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif; /* Cleaner, modern font stack */
+  background-color: #fff;
+  color: #333;
+}
+
+/* --- Main Layout Container --- */
+/* This houses your form and background gradient wrapper */
+.signup_hero_section {
+  width: 100%;
+  min-height: 85vh; /* Gives the form premium viewport presence */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(143, 187, 204, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+/* --- Clean Form Styling --- */
+.form_container {
+  background-color: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Softer, modern shadow */
+}
+
+.form_container > h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #222; /* Cleaned up bright cyan text for a premium feel */
+  text-align: center;
+}
+
+.form_container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form_container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.form_container input {
+  border: 1px solid #dbdbdb; /* Swapped bottom-line only for a sleek box input */
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form_container input:focus {
+  border-color: rgba(0, 212, 255, 1);
+}
+
+.form_container input::placeholder {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.form_container button {
+  background-color: #387ed1; /* Zerodha-style branding blue */
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  margin-top: 0.5rem;
+}
+
+.form_container button:hover {
+  background-color: #2b6cb0;
+}
+
+.form_container span {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+span a {
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 500;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+/* --- Footer Layout Fix --- */
+/* Wrap your footer section in a semantic tag or class like this */
+.footer_container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  background-color: #fff; /* Clean white backdrop for the footer link columns */
+}
+
+/* Add flex properties to your existing column links so they span correctly */
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* --- Home Page (Unchanged but cleaned) --- */
+.home_page {
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home_page span {
+  color: rgba(0, 212, 255, 1);
+}
+
+.home_page button {
+  background-color: rgb(27, 73, 83);
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  transition: ease-in 0.3s;
+  border: none;
+}
+
+.home_page button:hover {
+  background-color: rgba(0, 212, 255, 1);
+}
+
+/* --- Responsiveness --- */
+@media only screen and (max-width: 1200px) {
+  .home_page {
+    font-size: 1.5rem;
+  }
+  .home_page button {
+    padding: 0.6rem 1rem;
+    font-size: 1.5rem;
+  }
+}
+.signup_page_wrapper {
+ width: 100%;
+  min-height: 80vh;       /* Takes up 80% of the screen height above the footer */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  padding: 2rem 0;
+  background-color: #fff; /* Keeps the clean white look from your screenshot */
+}
