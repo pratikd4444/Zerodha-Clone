@@ -6,7 +6,7 @@ function Footer() {
         <div className='container border-top mt-5'>
             <div className='row mt-5'>
                 <div className='col'>
-                     <img className='mb-3'  src="media/images/logo.svg" style={{width:"70%"}} />
+                     <img className='mb-3' alt='Zerodha clone logo' src="media/images/logo.svg" style={{width:"70%"}} />
                      <p>© 2010 - 2026, Zerodha Broking Ltd. <br />All rights reserved.</p>
                      <i class="fa-brands fa-x-twitter "></i>
                      <i class="fa-brands fa-facebook"></i>
@@ -21,46 +21,46 @@ function Footer() {
                 </div>
                 <div className='col link-column' >
                     <h4 className='mb-3'>Account</h4>
-                   <a className='fs-5' href=''>Open demat account</a> <br />
-                    <a className='fs-5' href=''>Minor demat account</a>  <br />
-                    <a className='fs-5'href=''> NRI demat account</a> <br />
-                     <a className='fs-5' href=''>HUF demat account</a> <br />
-                    <a className='fs-5' href=''> Commodity</a> <br />
-                    <a className='fs-5'href=''>Dematerialisation</a>  <br />
-                    <a className='fs-5'href=''> Fund transfer</a> <br />
-                    <a className='fs-5'href=''> MTF</a> <br />
+                   <a className='fs-5' href='/'>Open demat account</a> <br />
+                    <a className='fs-5' href='/'>Minor demat account</a>  <br />
+                    <a className='fs-5'href='/'> NRI demat account</a> <br />
+                     <a className='fs-5' href='/'>HUF demat account</a> <br />
+                    <a className='fs-5' href='/'> Commodity</a> <br />
+                    <a className='fs-5'href='/'>Dematerialisation</a>  <br />
+                    <a className='fs-5'href='/'> Fund transfer</a> <br />
+                    <a className='fs-5'href='/'> MTF</a> <br />
                 </div>
                 <div className='col link-column '>
                     <h4 className='mb-3'>Support</h4>
-                      <a className='fs-5'href=''>Contact us</a>  <br />
-                     <a className='fs-5'href=''>Support portal</a> <br />
-                    <a className='fs-5'href=''> How to file a complaint?</a> <br />
-                     <a className='fs-5'href=''>Status of your complaints</a> <br />
-                    <a className='fs-5'href=''> Bulletin</a> <br />
-                    <a className='fs-5'href=''>Z-Connect blogr</a> <br />
-                    <a className='fs-5'href=''>Downloads</a> <br />
+                      <a className='fs-5'href='/'>Contact us</a>  <br />
+                     <a className='fs-5'href='/'>Support portal</a> <br />
+                    <a className='fs-5'href='/'> How to file a complaint?</a> <br />
+                     <a className='fs-5'href='/'>Status of your complaints</a> <br />
+                    <a className='fs-5'href='/'> Bulletin</a> <br />
+                    <a className='fs-5'href='/'>Z-Connect blogr</a> <br />
+                    <a className='fs-5'href='/'>Downloads</a> <br />
                 </div>
                 <div className='col link-column'>
                     <h4 className='mb-3'>Company</h4>
-                     <a className='fs-5'href=''>About</a>  <br />
-                     <a className='fs-5'href=''>Philosophy</a> <br />
-                    <a className='fs-5'href=''>Press & media</a> <br />
-                     <a className='fs-5'href=''>Careers</a> <br />
-                    <a className='fs-5'href=''> Zerodha Cares (CSR)</a> <br />
-                    <a className='fs-5'href=''>Zerodha.tech</a>  <br />
-                    <a className='fs-5'href=''>Open source</a> <br />
-                    <a className='fs-5'href=''>Referral program</a> <br />
+                     <a className='fs-5'href='/'>About</a>  <br />
+                     <a className='fs-5'href='/'>Philosophy</a> <br />
+                    <a className='fs-5'href='/'>Press & media</a> <br />
+                     <a className='fs-5'href='/'>Careers</a> <br />
+                    <a className='fs-5'href='/'> Zerodha Cares (CSR)</a> <br />
+                    <a className='fs-5'href='/'>Zerodha.tech</a>  <br />
+                    <a className='fs-5'href='/'>Open source</a> <br />
+                    <a className='fs-5'href='/'>Referral program</a> <br />
                 </div>
                 <div className='col link-column'>
                     <h4 className='mb-3'>Quick links</h4>
-                     <a className='fs-5'href=''>Upcoming IPOs</a>  <br />
-                     <a className='fs-5' href=''>Brokerage charges</a> <br />
-                    <a className='fs-5'href=''>Market holidays</a> <br />
-                     <a className='fs-5'href=''>Economic calendar</a> <br />
-                    <a className='fs-5'href=''>Calculators</a> <br />
-                    <a className='fs-5'href=''>Markets</a>  <br />
-                    <a className='fs-5'href=''>Sectors</a> <br />
-                    <a className='fs-5'href=''>Gift Nifty</a> <br />
+                     <a className='fs-5'href='/'>Upcoming IPOs</a>  <br />
+                     <a className='fs-5' href='/'>Brokerage charges</a> <br />
+                    <a className='fs-5'href='/'>Market holidays</a> <br />
+                     <a className='fs-5'href='/'>Economic calendar</a> <br />
+                    <a className='fs-5'href='/'>Calculators</a> <br />
+                    <a className='fs-5'href='/'>Markets</a>  <br />
+                    <a className='fs-5'href='/'>Sectors</a> <br />
+                    <a className='fs-5'href='/'>Gift Nifty</a> <br />
                 </div>
             </div>
             <div className='mt-5 text-small text-muted fs-10'>
