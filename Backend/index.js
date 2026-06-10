@@ -20,7 +20,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://your-main-frontend.netlify.app", 
+    "https://your-kite-dashboard.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
