@@ -16,8 +16,8 @@ function LeftSection({ImageUrl , productName , productDesription , tryDemo , lea
                     <a href={learnMore} style={{marginLeft:"50px", textDecoration:"none"}}>Learn More→</a>
                     </div>
                     <div className='mt-3 mb-5 '>
-                    <a href={googlePlay} style={{width:"10%"}}><img src='media/images/googlePlayBadge.svg'/></a>
-                    <a href={appStore} style={{marginLeft:"50px", width:"50%" }}><img src='media/images/appstore-badge-light.svg' /></a>
+                    <a href={googlePlay} style={{width:"10%"}}><img src='media/images/googlePlayBadge.svg ' alt='googleplaybadge'/></a>
+                    <a href={appStore} style={{marginLeft:"50px", width:"50%" }}><img src='media/images/appstore-badge-light.svg' alt='appstore' /></a>
                     </div>
                 </div>
             </div>

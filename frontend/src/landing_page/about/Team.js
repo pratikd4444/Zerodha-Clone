@@ -11,7 +11,7 @@ function Team() {
       </div>
       <div className="row p-5   ">
         <div className="col-6 fs-5 p-5 text-center ">
-         <img src='media/images/pratik.jpg' style={{borderRadius:"100%", width:"70%"}} />
+         <img src='media/images/pratik.jpg' alt='myimage' style={{borderRadius:"100%", width:"70%"}} />
          <h4 className='mt-3'>Pratik Deshmukh</h4>
          <p className='mt-4'>Founder, CEO</p>
         </div>
