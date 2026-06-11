@@ -6,7 +6,7 @@ function Footer() {
         <div className='container border-top mt-5'>
             <div className='row mt-5'>
                 <div className='col'>
-                     <img className='mb-3' alt='Zerodha clone logo' src="media/images/logo.svg" style={{width:"70%"}} />
+                     <img className='mb-3' alt='Zerodha clone logo' src="media/images/logo.svg"  style={{width:"70%"}} />
                      <p>© 2010 - 2026, Zerodha Broking Ltd. <br />All rights reserved.</p>
                      <i class="fa-brands fa-x-twitter "></i>
                      <i class="fa-brands fa-facebook"></i>
@@ -15,8 +15,8 @@ function Footer() {
                      <i class="fa-brands fa-youtube"></i>
                      <i class="fa-brands fa-whatsapp"></i>
                      <i class="fa-brands fa-telegram"></i>
-                     <img className='mt-3' style={{width:"70%"}} src='media/images/googlePlayBadge.svg' />
-                       <img className='mt-3' style={{width:"70%"}} src='media/images/appstore-badge-light.svg' />
+                     <img className='mt-3' style={{width:"70%"}} src='media/images/googlePlayBadge.svg' alt='googleplaybadhe' />
+                       <img className='mt-3' style={{width:"70%"}} src='media/images/appstore-badge-light.svg' alt='appstore' />
 
                 </div>
                 <div className='col link-column' >
