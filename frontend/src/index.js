@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
+import Navbar from "./landing_page/Navbar";
+import Footer from "./landing_page/Footer";
 import HomePage from "./landing_page/Home/HomePage";
 import SignUp from "./landing_page/signup/SignUp";
 import AboutPage from "./landing_page/about/AboutPage";
